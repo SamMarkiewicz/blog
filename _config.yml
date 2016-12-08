@@ -5,7 +5,7 @@ permalink:           pretty
 title:               My Blog
 tagline:             Just another Hello World
 url:                 http://blog.sammarkiewi.cz
-paginate:            1
+paginate:            2
 baseurl:             ""
 
 # Assets

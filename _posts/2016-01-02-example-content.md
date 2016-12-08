@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example content
+excerpt: On fait le test d'un second
 ---
 
 
