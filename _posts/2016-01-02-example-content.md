@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 excerpt: On fait le test d'un second
+description: A short description (e.g., A blog dedicated to reviewing cat gifs)
 ---
 
 
