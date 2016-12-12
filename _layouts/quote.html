@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="post quote-content">
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-quote">
+    {{ content }}
+  </div>
+  <p class="post-quote--source">
+    {{ page.source }}
+  </p>
+</article>
+
+{% if site.related_posts != empty %}
+<aside class="related">
+  <h3>Some other quotes</h3>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      {% if  post.category == "quote"  %}
+        <li>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}

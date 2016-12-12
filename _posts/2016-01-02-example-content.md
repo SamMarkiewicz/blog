@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example content
+published: false
 excerpt_separator: <!--more-->
 description: A short description (e.g., A blog dedicated to reviewing cat gifs)
 ---

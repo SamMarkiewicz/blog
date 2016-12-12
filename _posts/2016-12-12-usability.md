@@ -1,7 +1,7 @@
 ---
 layout: quote
-title: More than words
-published: false
+title: About usability
+published: true
 category: quote
 source: Jakob Nielsen
 ---

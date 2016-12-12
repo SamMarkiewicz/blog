@@ -10,6 +10,34 @@
   margin-right: auto;
 }
 
+header {
+  overflow: hidden;
+}
+
+header h3, header ul {
+  width: 50%
+}
+
+header h3 {
+  float: left
+}
+
+header ul {
+  float: right;
+  list-style-type: none
+}
+
+  header li {
+    float: right;
+    margin-left: 2rem
+  }
+
+    header li a {
+      color: #303030;
+      font-weight: 700;
+      font-size: .8rem
+    }
+
 footer {
   margin-bottom: 2rem;
 }
